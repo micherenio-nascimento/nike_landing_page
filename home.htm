@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/home_style.css"/>
+    <title>NIKE</title>
+</head>
+<body>
+        <div class="navbar show-menu">
+            <div class="inner-content">
+
+                <h1 class="logo">
+                    NIKE
+                </h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="./src/componentes/Tenis.htm">TENIS</a></li>
+                        <li>PRANCHA</li>
+                        <li>LIXAS</li>
+                        <li>RODAS</li>
+                        <li>ROLAMENTOS</li>
+                        <li>AMORTECEDORES</li>
+                        <li>PARAFUSOS</li>
+                        <li>FERRAMENTAS</li>
+                    </ul>
+                </nav>
+
+                <div class="nav-icon-conteiner">
+                    <img src="./assets/images/menu.png" class="menu-button">
+                </div>
+
+            </div>
+        </div>
+
+     <main>
+
+        <section class="banner">
+            <div class="sliders">
+                <div class="slide">
+                    <div class="slidearea">
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="header--inner-content">
+                <div class="header-botton-side">
+                    <div class="header-botton-side-left">
+                        <h2>QUEM SOMOS</h2>
+                        <p>
+                            A Nike, fundada por Bill Bowerman e Phil Knight, tem sede em Beaverton, Oregon, Estados Unidos. A empresa recebeu primeiramente, em 1964, o nome de Blue Ribbon Sports. Porém, em 1971, foi renomeada para Nike, Inc. Atualmente, a empresa é responsável pelo design, fabricação, marketing e venda de calçados, roupas, acessórios e equipamentos esportivos, destacando-se como uma das companhias mais valiosas do setor.
+                        </p>
+                    </div>
+                    <div class="header-botton-side-right">
+                        <img src="./assets/images/aboutus.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="black-background">
+                <div class="footer-inner-content">
+                    <div class="cols">
+                        <img src="./assets/images/relogio.png"/>
+                        <div class="img">
+                            <a href="">
+                                <img src="./assets/images/balao.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+   
+    </main>
+    <script >
+        const navbar = document.querySelector(".navbar")
+        const menuButton = document.querySelector(".menu-button")
+
+        menuButton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu")
+        })
+    </script>
+</body>
+</html>
