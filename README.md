@@ -3,6 +3,9 @@
 ![](./assets/images/apresentacao.gif)
 
 ## Tecnologias 🛠️
-- html
-- css
-- javascript (DOM)
+- HTML
+- CSS
+- JavaScript (DOM)
+
+## Categoria
+**frontend**
